@@ -16,7 +16,7 @@ namespace Character_Builder_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SW5ECB());
         }
     }
 }
