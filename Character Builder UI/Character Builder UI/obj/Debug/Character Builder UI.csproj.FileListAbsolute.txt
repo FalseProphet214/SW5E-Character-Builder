@@ -1,0 +1,11 @@
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.csproj.AssemblyReference.cache
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character_Builder_UI.Properties.Resources.resources
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.csproj.GenerateResource.cache
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.csproj.CoreCompileInputs.cache
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\bin\Debug\Character Builder UI.exe.config
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\bin\Debug\Character Builder UI.exe
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\bin\Debug\Character Builder UI.pdb
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.exe
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character Builder UI.pdb
+C:\Users\corbi\Source\Repos\SW5E-Character-Builder\Character Builder UI\Character Builder UI\obj\Debug\Character_Builder_UI.SW5ECB.resources
