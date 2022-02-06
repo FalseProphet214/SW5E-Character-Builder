@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c2380db9-b72e-4146-8a2b-6f089f34deb4": {
+      "ProjectGuid": "c2380db9-b72e-4146-8a2b-6f089f34deb4",
+      "DisplayName": "Character Builder UI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
