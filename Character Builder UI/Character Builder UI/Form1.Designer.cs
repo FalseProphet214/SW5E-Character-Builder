@@ -31,141 +31,73 @@ namespace Character_Builder_UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClickThis = new System.Windows.Forms.Button();
-            this.lblHelloWorld = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.showButton = new System.Windows.Forms.Button();
-            this.clearButton = new System.Windows.Forms.Button();
-            this.backgroundButton = new System.Windows.Forms.Button();
-            this.closeButton = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.race1 = new System.Windows.Forms.Label();
+            this.class1 = new System.Windows.Forms.Label();
+            this.subClass = new System.Windows.Forms.Label();
+            this.abilitiesList = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // label1
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85F));
-            this.tableLayoutPanel1.Controls.Add(this.checkBox1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 1, 1);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 606);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(229, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Character Name";
             // 
-            // checkBox1
+            // race1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(3, 548);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(60, 17);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Stretch";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.race1.AutoSize = true;
+            this.race1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.race1.Location = new System.Drawing.Point(15, 49);
+            this.race1.Name = "race1";
+            this.race1.Size = new System.Drawing.Size(54, 24);
+            this.race1.TabIndex = 1;
+            this.race1.Text = "Race";
             // 
-            // pictureBox1
+            // class1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 2);
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(794, 539);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.class1.AutoSize = true;
+            this.class1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.class1.Location = new System.Drawing.Point(15, 73);
+            this.class1.Name = "class1";
+            this.class1.Size = new System.Drawing.Size(55, 24);
+            this.class1.TabIndex = 2;
+            this.class1.Text = "Class";
             // 
-            // flowLayoutPanel1
+            // subClass
             // 
-            this.flowLayoutPanel1.Controls.Add(this.showButton);
-            this.flowLayoutPanel1.Controls.Add(this.clearButton);
-            this.flowLayoutPanel1.Controls.Add(this.backgroundButton);
-            this.flowLayoutPanel1.Controls.Add(this.closeButton);
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(123, 548);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(674, 55);
-            this.flowLayoutPanel1.TabIndex = 4;
+            this.subClass.AutoSize = true;
+            this.subClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subClass.Location = new System.Drawing.Point(76, 73);
+            this.subClass.Name = "subClass";
+            this.subClass.Size = new System.Drawing.Size(89, 24);
+            this.subClass.TabIndex = 3;
+            this.subClass.Text = "SubClass";
             // 
-            // showButton
+            // abilitiesList
             // 
-            this.showButton.AutoSize = true;
-            this.showButton.Location = new System.Drawing.Point(596, 3);
-            this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(75, 23);
-            this.showButton.TabIndex = 0;
-            this.showButton.Text = "Show";
-            this.showButton.UseVisualStyleBackColor = true;
-            this.showButton.Click += new System.EventHandler(this.showButton_Click);
-            // 
-            // clearButton
-            // 
-            this.clearButton.AutoSize = true;
-            this.clearButton.Location = new System.Drawing.Point(495, 3);
-            this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(95, 23);
-            this.clearButton.TabIndex = 1;
-            this.clearButton.Text = "Clear the Picture";
-            this.clearButton.UseVisualStyleBackColor = true;
-            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
-            // 
-            // backgroundButton
-            // 
-            this.backgroundButton.AutoSize = true;
-            this.backgroundButton.Location = new System.Drawing.Point(352, 3);
-            this.backgroundButton.Name = "backgroundButton";
-            this.backgroundButton.Size = new System.Drawing.Size(137, 23);
-            this.backgroundButton.TabIndex = 2;
-            this.backgroundButton.Text = "Set the background color";
-            this.backgroundButton.UseVisualStyleBackColor = true;
-            this.backgroundButton.Click += new System.EventHandler(this.backgroundButton_Click);
-            // 
-            // closeButton
-            // 
-            this.closeButton.AutoSize = true;
-            this.closeButton.Location = new System.Drawing.Point(271, 3);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(75, 23);
-            this.closeButton.TabIndex = 3;
-            this.closeButton.Text = "Close";
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All file" +
-    "s (*.*)|*.*";
-            this.openFileDialog1.Title = "Select a picture file";
-            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            this.abilitiesList.FormattingEnabled = true;
+            this.abilitiesList.Location = new System.Drawing.Point(19, 120);
+            this.abilitiesList.Name = "abilitiesList";
+            this.abilitiesList.Size = new System.Drawing.Size(146, 409);
+            this.abilitiesList.TabIndex = 4;
             // 
             // SW5ECB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 606);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.lblHelloWorld);
-            this.Controls.Add(this.btnClickThis);
+            this.Controls.Add(this.abilitiesList);
+            this.Controls.Add(this.subClass);
+            this.Controls.Add(this.class1);
+            this.Controls.Add(this.race1);
+            this.Controls.Add(this.label1);
             this.Name = "SW5ECB";
             this.Text = "SW5E Character builder v1.0.0";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,18 +110,11 @@ namespace Character_Builder_UI
 
         #endregion
 
-        private System.Windows.Forms.Button btnClickThis;
-        private System.Windows.Forms.Label lblHelloWorld;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button showButton;
-        private System.Windows.Forms.Button clearButton;
-        private System.Windows.Forms.Button backgroundButton;
-        private System.Windows.Forms.Button closeButton;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label race1;
+        private System.Windows.Forms.Label class1;
+        private System.Windows.Forms.Label subClass;
+        private System.Windows.Forms.CheckedListBox abilitiesList;
     }
 }
 
